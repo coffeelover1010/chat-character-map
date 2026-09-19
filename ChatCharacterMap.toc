@@ -1,0 +1,12 @@
+## Interface: 16001
+## Title: Chat Character Map
+## Notes: Browse characters, copy text, and look up chat and keyboard codes.
+## Author: Videocat
+## Version: 0.2.1-beta
+## SavedVariables: ChatCharacterMapDB
+## X-Compatibility: Forever beta; in-game validation pending.
+
+Characters.lua
+FontCharacters.lua
+ChatCharacterMap.lua
+Minimap.lua

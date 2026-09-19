@@ -4,6 +4,8 @@ Find the right symbol without leaving the game. Chat Character Map puts hearts, 
 
 Open it with `/charmap`, `/ccmap`, or the book button beside your minimap. Try `/charmap heart` to jump straight to a search.
 
+![Chat Character Map in game](docs/images/character-map.png)
+
 ## Features
 
 - Browse 340 characters and eight raid markers by category.
@@ -29,7 +31,7 @@ The `.toc` and all four `.lua` files must be directly inside `AddOns/ChatCharact
 
 ## Compatibility
 
-**Version 0.2.1-beta targets the Forever beta (interface 16001).** In-game rendering, minimap dragging, clipboard shortcuts, and chat insertion still need client verification. Support for other WoW clients is not confirmed.
+**Version 0.2.1-beta targets the Forever beta (interface 16001).** The screenshot shows the picker rendered in game. Minimap dragging, clipboard shortcuts, and chat insertion still need client verification. Support for other WoW clients is not confirmed.
 
 Font coverage was checked against the installed Forever beta fonts on 19 September 2026. The lists include 308 characters in Arial and 132 in Friz. The heart is available in Arial. Other players' fonts and server filtering may affect what they see. The addon uses the game's fonts and does not change your chat settings.
 
@@ -46,3 +48,4 @@ Messages are limited to 255 UTF-8 bytes. Accented letters and symbols can use mo
 ## Credits
 
 Character names and code points come from Python's Unicode database. No external libraries, font files, or artwork are bundled. Raid marker previews use textures already in the game.
+

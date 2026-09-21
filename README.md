@@ -27,11 +27,11 @@ Use **Favorite** to keep a character handy. Toggle the minimap button with the *
 
 Download the addon ZIP from [Releases](https://github.com/coffeelover1010/chat-character-map/releases). Extract the `ChatCharacterMap` folder into your game's `Interface/AddOns` folder.
 
-The `.toc` and all four `.lua` files must be directly inside `AddOns/ChatCharacterMap`. Restart the game, enable **Chat Character Map**, and type `/charmap`.
+Keep all files and the `Libs` folder inside `AddOns/ChatCharacterMap`. Restart the game, enable **Chat Character Map**, and type `/charmap`.
 
 ## Compatibility
 
-**Version 0.2.1-beta targets the Forever beta (interface 16001).** The screenshot shows the picker rendered in game. Minimap dragging, clipboard shortcuts, and chat insertion still need client verification. Support for other WoW clients is not confirmed.
+**Version 0.2.3-beta targets the Forever beta (interface 16001).** The screenshot shows the picker rendered in game. Minimap dragging, clipboard shortcuts, and chat insertion still need client verification. Support for other WoW clients is not confirmed.
 
 Font coverage was checked against the installed Forever beta fonts on 19 September 2026. The lists include 308 characters in Arial and 132 in Friz. The heart is available in Arial. Other players' fonts and server filtering may affect what they see. The addon uses the game's fonts and does not change your chat settings.
 
@@ -47,5 +47,5 @@ Messages are limited to 255 UTF-8 bytes. Accented letters and symbols can use mo
 
 ## Credits
 
-Character names and code points come from Python's Unicode database. No external libraries, font files, or artwork are bundled. Raid marker previews use textures already in the game.
+Character names and code points come from Python's Unicode database. The minimap button uses LibDBIcon, LibDataBroker, CallbackHandler, and LibStub. Their source and license notices are in `Libs`. No font files or artwork are bundled. Raid marker previews use textures already in the game.
 

@@ -1,3 +1,9 @@
+# 0.2.4-beta
+
+- Centre the minimap icon inside its ring and use a circular mask for a cleaner fit.
+
+Offline checks passed; live in-game verification remains pending.
+
 # 0.2.3-beta
 
 - Use LibDBIcon for the minimap button, square-map positioning, and minimap-button manager support. Preserve existing saved icon angles.

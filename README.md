@@ -31,7 +31,7 @@ Keep all files and the `Libs` folder inside `AddOns/ChatCharacterMap`. Restart t
 
 ## Compatibility
 
-**Version 0.2.3-beta targets the Forever beta (interface 16001).** The screenshot shows the picker rendered in game. Minimap dragging, clipboard shortcuts, and chat insertion still need client verification. Support for other WoW clients is not confirmed.
+**Version 0.2.4-beta targets the Forever beta (interface 16001).** The screenshot shows the picker rendered in game. Minimap dragging, clipboard shortcuts, and chat insertion still need client verification. Support for other WoW clients is not confirmed.
 
 Font coverage was checked against the installed Forever beta fonts on 19 September 2026. The lists include 308 characters in Arial and 132 in Friz. The heart is available in Arial. Other players' fonts and server filtering may affect what they see. The addon uses the game's fonts and does not change your chat settings.
 
@@ -39,7 +39,7 @@ Messages are limited to 255 UTF-8 bytes. Accented letters and symbols can use mo
 
 ## Character codes
 
-**Unicode:** `U+00E9` identifies `é`; typing the code into chat does not create the character. Copy or insert the character instead.
+**Unicode:** `U+00E9` identifies `Ã©`; typing the code into chat does not create the character. Copy or insert the character instead.
 
 **Windows Alt codes:** Where listed, these use Windows code page 1252. Hold Alt and type the digits, including the leading zero, on the numeric keypad. Keyboard and game settings can affect the result.
 

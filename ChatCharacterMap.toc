@@ -2,7 +2,7 @@
 ## Title: Chat Character Map
 ## Notes: Browse characters, copy text, and look up chat and keyboard codes.
 ## Author: Videocat
-## Version: 0.2.3-beta
+## Version: 0.2.4-beta
 ## SavedVariables: ChatCharacterMapDB
 ## X-Compatibility: Forever beta; in-game validation pending.
 

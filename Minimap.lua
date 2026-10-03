@@ -35,4 +35,27 @@ events:SetScript("OnEvent", function(self, _, name)
         end,
     })
     icons:Register(addonName, launcher, ChatCharacterMapDB.minimap)
+    -- Centre the face on the visible hole in the 64px tracking-ring texture.
+    do
+        local button = icons:GetMinimapButton(addonName)
+        if button and button.border and button.icon then
+            local x, y = button.border:GetWidth() * 20 / 64, -button.border:GetHeight() * 19 / 64
+            -- Fill the tracking ring's opening; keep its border and hit area standard.
+            local faceSize = button.border:GetWidth() * 26 / 64
+            button.icon:SetSize(faceSize, faceSize)
+            if not button.foreverFaceMask then
+                local mask = button:CreateMaskTexture(nil, "ARTWORK")
+                mask:SetTexture("Interface\\CharacterFrame\\TempPortraitAlphaMask", "CLAMPTOBLACKADDITIVE", "CLAMPTOBLACKADDITIVE")
+                mask:SetAllPoints(button.icon)
+                button.icon:AddMaskTexture(mask)
+                button.foreverFaceMask = mask
+            end
+            button.icon:ClearAllPoints()
+            button.icon:SetPoint("CENTER", button.border, "TOPLEFT", x, y)
+            if button.background then
+                button.background:ClearAllPoints()
+                button.background:SetPoint("CENTER", button.border, "TOPLEFT", x, y)
+            end
+        end
+    end
 end)

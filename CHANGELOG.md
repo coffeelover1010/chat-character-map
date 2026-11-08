@@ -1,3 +1,12 @@
+# Chat Character Map 0.2.5
+
+- Reject malformed non-table settings backups without replacing saved settings.
+- Back up picker settings using Forever client CVars alongside normal SavedVariables.
+- Recover a valid backup at addon load and keep the previous backup if a write fails.
+- Retain the existing character picker, chat insertion and minimap controls.
+
+Stable release for WoW Forever. Lua syntax, backup recovery and package checks passed. Live client CVar persistence remains unverified.
+
 # 0.2.4-beta
 
 - Centre the minimap icon inside its ring and use a circular mask for a cleaner fit.

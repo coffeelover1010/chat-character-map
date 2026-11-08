@@ -2,10 +2,11 @@
 ## Title: Chat Character Map
 ## Notes: Browse characters, copy text, and look up chat and keyboard codes.
 ## Author: Videocat
-## Version: 0.2.4-beta
+## Version: 0.2.5
 ## SavedVariables: ChatCharacterMapDB
-## X-Compatibility: Forever beta; in-game validation pending.
+## X-Compatibility: WoW Forever; in-game validation pending.
 
+SettingsBackup.lua
 Libs\LibStub.lua
 Libs\CallbackHandler-1.0.lua
 Libs\LibDataBroker-1.1.lua
